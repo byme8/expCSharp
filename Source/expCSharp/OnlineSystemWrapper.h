@@ -10,3 +10,15 @@ class EXPCSHARP_API UOnlineSystemWrapper : public UObject
 public:
 	UOnlineSystemWrapper();
 };
+
+
+UCLASS()	
+class EXPCSHARP_API APlayerControllerWrapper : public APlayerController
+{
+	GENERATED_BODY()
+public:
+	APlayerControllerWrapper();
+
+	virtual void OnConstruction(const FTransform& Transform) override;
+	virtual void BeginPlay() override;
+};

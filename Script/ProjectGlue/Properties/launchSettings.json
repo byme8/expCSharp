@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "UnrealSharp": {
+      "commandName": "Executable",
+      "executablePath": "S:\\Epic\\UE_5.5\\UE_5.5\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+      "commandLineArgs": "\"S:\\Epic\\Projects\\expCSharp\\expCSharp.uproject\""
+    }
+  }
+}
